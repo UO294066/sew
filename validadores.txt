@@ -1,0 +1,4 @@
+Validador HTML5: https://validator.w3.org/nu/
+Validador CSS: https://jigsaw.w3.org/css-validator/
+Adaptabilidad: Google Lighthouse y http://iloveadaptive.com/
+Accesibilidad: https://wave.webaim.org/ y https://achecks.org/achecker
