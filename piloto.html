@@ -30,8 +30,12 @@
         </nav>
 
         <br>
-
-        <img alt="Foto de Fernando Alonso" src="multimedia/alonso_imagen.jpg"/>
+        
+        <picture>
+            <source media="(max-width: 799px)" srcset="multimedia/alonso_imagen_pequeña.jpg" />
+            <source media="(max-width: 800px)" srcset="multimedia/alonso_imagen_mediana.jpg" />
+            <img alt="Foto de Fernando Alonso" src="multimedia/alonso_imagen_mediana.jpg" />
+        </picture>
 
         <h3>Fernando Alonso: Historia y Logros</h3>
         <p>Fernando Alonso Díaz, nacido el 29 de julio de 1981 en Oviedo, España, es uno de los pilotos 
