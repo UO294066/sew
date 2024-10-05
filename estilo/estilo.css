@@ -1,1 +1,29 @@
 /* Aitor Gómez Ogueta UO294066 */
+
+/*
+    Colores: #545652 (gris), #E3D6D1 (ocre), #A8B8B9 (pistacho), #749AB8 (azul lavado)
+*/
+
+/* Specificity Weight: (0, 0, 1) */
+body {
+
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #E3D6D1;                  /* Este color se hereda por defecto */
+    color: #545652;                             /* Este color se hereda por defecto */
+
+}
+
+/* Specificity Weight: (0, 0, 1) */
+header {
+
+    background-color: #bababa;                  /* Este color se sobreescribe de body */
+
+}
+
+/* Specificity Weight: (0, 0, 1), (0, 0, 1) */
+h1, nav{
+
+    color: #245c86;                               /* Este color se sobreescribe de body */
+
+}
+
