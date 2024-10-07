@@ -1,29 +1,50 @@
 /* Aitor Gómez Ogueta UO294066 */
 
 /*
-    Colores: #545652 (gris), #E3D6D1 (ocre), #A8B8B9 (pistacho), #749AB8 (azul lavado)
+    Colores: Background #E3D6D1 (marrón suave), Foreground #40423E (gris fuerte), 
+    Segundo Background #F2F2F2 (blanco roto), Foreground Título #21557D (azul marino)
 */
 
-/* Specificity Weight: (0, 0, 1) */
+/* Specificity: (0, 0, 1) */
 body {
 
     font-family: Helvetica, Arial, sans-serif;
-    background-color: #E3D6D1;                  /* Este color se hereda por defecto */
-    color: #545652;                             /* Este color se hereda por defecto */
+    background-color: #E3D6D1;
+    color: #40423E;
 
 }
 
-/* Specificity Weight: (0, 0, 1) */
+/* Specificity: (0, 0, 1) */
 header {
 
-    background-color: #bababa;                  /* Este color se sobreescribe de body */
+    background-color: #F2F2F2;
+    color: #21557D;
 
 }
 
-/* Specificity Weight: (0, 0, 1), (0, 0, 1) */
-h1, nav{
+/* Specificity: (0, 1, 2), (0, 1, 2), (0, 1, 2), (0, 1, 2) */
+h1 a, nav a, h1 a:visited, nav a:visited{
 
-    color: #245c86;                               /* Este color se sobreescribe de body */
+    text-decoration: none;
+    color: #21557D;
+    /* Background-color se hereda de header */
 
 }
 
+/* Specificity: (0, 1, 2) */
+body p:first-of-type {
+
+    font-size: 0.65em;
+    /* Color se hereda de header */
+    /* Background-color se hereda de header */
+
+}
+
+/* Specificity: (0, 1, 2) */
+body p:first-of-type a, body p:first-of-type a:visited {
+
+    text-decoration: none;
+    color: #21557D;
+    /* Background-color se hereda de body */
+
+}
