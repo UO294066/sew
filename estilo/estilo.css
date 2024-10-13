@@ -11,40 +11,401 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #E3D6D1;
     color: #40423E;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+
+}
+
+/* Specificity: (0, 0, 1), (0, 0, 1) */
+header, footer {
+
+    background-color: #21557D;
+    color: #FFFFFF;
+
+}
+
+/* Specificity: (0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1) */
+h1, h2, h3, h4 {
+
+    color: #21557D;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    transition: transform 0.3s;
+    /* Background-color se hereda de body */
+
+}
+
+/* Specificity: (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0) */
+h1:hover, h2:hover, h3:hover, h4:hover {
+
+    transform: translateY(-0.125em);
 
 }
 
 /* Specificity: (0, 0, 1) */
-header {
+h1 {
 
-    background-color: #F2F2F2;
-    color: #21557D;
+    font-size: 2.5rem;
 
 }
 
-/* Specificity: (0, 1, 2), (0, 1, 2), (0, 1, 2), (0, 1, 2) */
-h1 a, nav a, h1 a:visited, nav a:visited{
+/* Specificity: (0, 0, 2) */
+h1 a {
 
     text-decoration: none;
-    color: #21557D;
-    /* Background-color se hereda de header */
 
 }
 
-/* Specificity: (0, 1, 2) */
-body p:first-of-type {
+/* Specificity: (0, 0, 1) */
+h2 {
 
-    font-size: 0.65em;
-    /* Color se hereda de header */
-    /* Background-color se hereda de header */
+    font-size: 2rem;
+    border-bottom: 0.125 solid #21557D;
+    padding-bottom: 0.5rem;
 
 }
 
-/* Specificity: (0, 1, 2) */
-body p:first-of-type a, body p:first-of-type a:visited {
+/* Specificity: (0, 0, 1) */
+h3 {
+
+    font-size: 1.75;
+
+}
+
+/* Specificity: (0, 0, 1) */
+h4 {
+
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+/* Specificity: (0, 0, 1) */
+p {
+
+    font-size: 1rem;
+    margin: 1.5rem 0;
+    color: #40423E;
+
+}
+
+/* Specificity: (0, 0, 2), (0, 0, 1) */
+p a, p a:visited {
 
     text-decoration: none;
     color: #21557D;
     /* Background-color se hereda de body */
+
+}
+
+/* Specificity: (0, 0, 1) */
+p a:hover {
+
+    text-decoration: underline;
+
+}
+
+/* Specificity: (0, 0, 2), (0, 0, 2), (0, 0, 1), (0, 0, 1), (0, 0, 2), (0, 0, 2) */
+h1 a, nav a, h1 a:visited, nav a:visited, footer h3, footer a{
+
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    margin-right: 1rem;
+    /* Background-color se hereda de header */
+
+}
+
+/* Specificity: (0, 0, 1) */
+nav a:hover {
+
+    text-decoration: underline;
+
+}
+
+/* Specificity: (0, 1, 2) */
+nav a.active {
+
+    padding: 2rem 1rem 0.5rem 1rem;
+    background-color: #F2F2F2;
+    color: #21557D;
+    border-radius: 0.5em;
+    font-weight: bold;
+
+}
+
+/* Specificity: (0, 0, 1) */
+main {
+
+    max-width: 90%;
+    margin: 0 auto;
+
+}
+
+/* Specificity: (0, 0, 2) */
+body > p {
+
+    font-size: 0.75rem;
+    color: #40423E;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+
+}
+
+/* Specificity: (0, 0, 3), (0, 0, 2) */
+body > p a, body > p a:visited {
+
+    color: #21557D;
+    text-decoration: none;
+
+}
+
+/* Specificity: (0, 0, 2) */
+body > p a:hover {
+
+    text-decoration: underline;
+
+}
+
+/* Specificity: (0, 0, 1) */
+a[href^="http"] {
+
+    text-decoration: none;
+    position: relative;
+    padding-right: 1.25rem;
+    font-size: 1rem;
+
+}
+
+/* Specificity: (0, 0, 1) */
+a[href^="http"]:hover {
+
+    color: #FF5733;
+    text-decoration: underline;
+
+}
+
+/* Specificity: (0, 0, 1) */
+ul {
+
+    margin: 2rem 0;
+    list-style-type: none;
+    padding-left: 1.5em;
+    font-size: 1rem;
+    list-style: none;
+
+}
+
+/* Specificity: (0, 0, 2) */
+ul li {
+
+    position: relative;
+    padding-left: 1.5em;
+    margin-bottom: 1rem;
+    color: #40423E;
+
+}
+
+/* Specificity: (0, 0, 1) */
+ul li::before {
+
+    content: "✔";
+    color: #21557D;
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+
+}
+
+/* Specificity: (0, 0, 1) */
+ol {
+
+    font-size: 1rem;
+    margin: 2rem 0;
+    padding-left: 1.5em;
+    list-style: none;
+    counter-reset: list-counter;
+
+}
+
+/* Specificity: (0, 0, 2) */
+ol > li {
+
+    position: relative;
+    margin-bottom: 1rem;
+    padding-left: 1.5em;
+    color: #40423E;
+    counter-increment: list-counter;
+
+}
+
+/* Specificity: (0, 0, 1) */
+ol > li::before {
+
+    content: counter(list-counter) ". ";
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+    color: #FF5722;
+    font-weight: bold;
+
+}
+
+/* Specificity: (0, 0, 0) */
+li:hover {
+
+    background-color: #F2F2F2;
+    transition: background-color 0.3s;
+
+}
+
+/* Specificity: (0, 0, 1) */
+dl {
+
+    font-size: 1rem;
+    margin: 2rem 0;
+
+}
+
+/* Specificity: (0, 0, 1) */
+dt {
+
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: #21557D;
+    padding: 0.5em;
+    border-left: 0.3em solid #21557D;
+    background-color: #F2F2F2;
+    transition: background-color 0.3s, transform 0.3s;
+
+}
+
+/* Specificity: (0, 0, 1) */
+dd {
+
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #40423E;
+    background-color: #E3D6D1;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border-radius: 0.5em;
+    box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.1);
+
+}
+
+/* Specificity: (0, 0, 0) */
+dt:hover {
+
+    background-color: #21557D;
+    color: #FFF;
+    transform: scale(1.02);
+
+}
+
+/* Specificity: (0, 0, 1) */
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 1rem;
+    table-layout: fixed;
+
+}
+
+/* Specificity: (0, 0, 1) */
+th {
+
+    background-color: #21557D;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+/* Specificity: (0, 0, 1) */
+td {
+
+    background-color: #F2F2F2;
+    color: #40423E;
+    padding: 0.75rem;
+    border: 1px solid #E3D6D1;
+    text-align: left;
+
+}
+
+/* Specificity: (0, 0, 1) */
+table td:hover {
+
+    background-color: #E3D6D1;
+
+}
+
+/* Specificity: (0, 0, 1) */
+caption {
+
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #21557D;
+
+}
+
+/* Specificity: (0, 0, 1) */
+video, image {
+
+    width: 100%;
+    height: auto;
+
+}
+
+/* Specificity: (0, 0, 1) */
+audio {
+
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 30rem;
+
+}
+
+/* Specificity: (0, 0, 0) */
+@media (max-width: 1100px) {
+
+    h1 {
+
+        font-size: 2rem;
+
+    }
+
+    h2 {
+
+        font-size: 1.75rem;
+
+    }
+
+    p {
+
+        font-size: 0.9rem;
+
+    }
+
+}
+
+/* Specificity: (0, 0, 0) */
+@media (max-width: 1100px) {
+
+    body > p {
+
+        display: none;
+
+    }
 
 }

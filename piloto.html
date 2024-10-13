@@ -11,7 +11,10 @@
         
         <title>Aitor F1: Piloto</title>
         <link rel="icon" href="multimedia/imagenes/favicon_16.ico" sizes="16x16" type="image/vnd.microsoft.icon" />
+        <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+        <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
         <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+        
 
     </head>
 
@@ -23,7 +26,7 @@
 
             <nav>
                 <a href="index.html">Inicio</a>
-                <a href="piloto.html">Piloto</a>
+                <a href="piloto.html" class="active">Piloto</a>
                 <a href="noticias.html">Noticias</a>
                 <a href="calendario.html">Calendario</a>
                 <a href="meteorologia.html">Meteorología</a>
@@ -184,17 +187,23 @@
                 <table>
                     <caption>Resultados Temporada 2023</caption>
                     <tr>
-                        <th scope="col" id="puntos">Puntos</th>
-                        <th scope="col" id="posicion">Posición</th>
-                        <th scope="col" id="poles">Poles</th>
-                        <th scope="col" id="victorias">Victorias</th>
-                        <th scope="col" id="podios">Podios</th>
+                        <th scope="row" id="puntos">Puntos</th>
+                        <td headers="puntos">206</td>
                     </tr>
                     <tr>
-                        <td headers="puntos">206</td>
+                        <th scope="row" id="posicion">Posición</th>
                         <td headers="posicion">4º</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="poles">Poles</th>
                         <td headers="poles">0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="victorias">Victorias</th>
                         <td headers="victorias">0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="podios">Podios</th>
                         <td headers="podios">8</td>
                     </tr>
                 </table>
