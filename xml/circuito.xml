@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito nombre="Circuito de las Américas" longitud="5513" longitud_unidades="km" anchura="15" anchura_unidades="m" fecha="20-10-2024" hora="22:00" vueltas="56" localidad="Austin" pais="Estados Unidos">
+
+    <referencia ref=""></referencia>
+    <referencia ref=""></referencia>
+    <referencia ref=""></referencia>
+
+    <foto ref=""></foto>
+
+    <foto ref=""></foto>
+
+    <coordenada longitud="30.1335220° N" latitud="-97.6422641° W" altitud="170 m"></coordenada>
+
+    <tramo distancia="634.91" unidades="m" sector="1">
+        <coordenada longitud="30.1300351° N" latitud="--97.6370575° W" altitud="183.77"></coordenada>
+    </tramo>
+
+    <tramo distancia="634.91" unidades="m" sector="1">
+        <coordenada longitud="30.1300351° N" latitud="-97.6370575° W" altitud="183.77"></coordenada>
+    </tramo>
+
+</circuito>
