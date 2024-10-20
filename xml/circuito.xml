@@ -1,23 +1,358 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE circuito SYSTEM "circuito.dtd">
 <circuito nombre="Circuito de las Américas" longitud="5513" longitud_unidades="km" anchura="15" anchura_unidades="m" fecha="20-10-2024" hora="22:00" vueltas="56" localidad="Austin" pais="Estados Unidos">
+    
+    <referencia ref="https://es.wikipedia.org/wiki/Circuito_de_las_Am%C3%A9ricas"></referencia>
+    <referencia ref="https://www.dazn.com/es-ES/news/motor/circuito-de-las-americas-cota-donde-esta-como-es-caracteristicas-como-llegar-y-fotos-del-escenario-del-gp-del-mundial-de-f1-y-motogp/1fpu8eh1poemg1pkvrd0rkxkce"></referencia>
+    <referencia ref="https://www.circuitosdecarreras.com/estados-unidos/circuito-americas/"></referencia>
 
-    <referencia ref=""></referencia>
-    <referencia ref=""></referencia>
-    <referencia ref=""></referencia>
+    <foto ref="Panorama.png"></foto>
+    <foto ref="Meta.jpg"></foto>
 
-    <foto ref=""></foto>
+    <coordenada latitud="30.1335220°" longitud="-97.6422641°" altitud="170" altitud_unidades="m"></coordenada>
 
-    <foto ref=""></foto>
-
-    <coordenada longitud="30.1335220° N" latitud="-97.6422641° W" altitud="170 m"></coordenada>
-
-    <tramo distancia="634.91" unidades="m" sector="1">
-        <coordenada longitud="30.1300351° N" latitud="--97.6370575° W" altitud="183.77"></coordenada>
+    <tramo distancia="633.7" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1300383°" longitud="-97.6370485°" altitud="182.3887205" altitud_unidades="m"></coordenada>
     </tramo>
 
-    <tramo distancia="634.91" unidades="m" sector="1">
-        <coordenada longitud="30.1300351° N" latitud="-97.6370575° W" altitud="183.77"></coordenada>
+    <tramo distancia="21.41" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1300258°" longitud="-97.6368383°" altitud="182.3887205" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="20.04" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1302000°" longitud="-97.6367794°" altitud="182.3887205" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="160.17" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1315694°" longitud="-97.6373092°" altitud="169.5425525" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="31.22" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1318476°" longitud="-97.6373411°" altitud="169.5425525" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="30.54" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1321144°" longitud="-97.6372938°" altitud="166.4426245" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="33.06" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1323818°" longitud="-97.6371504°" altitud="165.6159755" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="39.03" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1326377°" longitud="-97.6368661°" altitud="166.4426245" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="180.04" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1326377°" longitud="-97.6368661°" altitud="166.4426245" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="26.47" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1336582°" longitud="-97.6350727°" altitud="166.9248699" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="61.81" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1341727°" longitud="-97.6348123°" altitud="166.9248699" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="23.5" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1343580°" longitud="-97.6346870°" altitud="166.7073935" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="39.71" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1345312°" longitud="-97.6343255°" altitud="166.7073935" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="31.74" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1346411°" longitud="-97.6340184°" altitud="166.3677553" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="21.61" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1347778°" longitud="-97.6338530°" altitud="166.3677553" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="22.78" distancia_unidades="m" sector="1">
+        <coordenada latitud="30,1349675°" longitud="-97.6337536°" altitud="166.3116165" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="19.2" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1351439°" longitud="-97.6337248°" altitud="166.3116165" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="26.51" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1353863°" longitud="-97.6336895°" altitud="165.7915452" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="25.42" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1356047°" longitud="-97.6336048°" altitud="165.7915452" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="30.53" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1358281°" longitud="-97.6334158°" altitud="165.7915452" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="27.91" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1359847°" longitud="-97.6331903°" altitud="165.7915452" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="32.62" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1361217°" longitud="-97.6328928°" altitud="167.6638630" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="29.92" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1361795°" longitud="-97.6325908°" altitud="167.6638630" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="25.95" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1361605°" longitud="-97.6323229°" altitud="167.6638630" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="49.05" distancia_unidades="m" sector="1">
+        <coordenada latitud="30.1359837°" longitud="-97.6318559°" altitud="167.6638630" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="56.88" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1357626°" longitud="-97.6313230°" altitud="167.7025002" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="16.83" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1357238°" longitud="-97.6311579°" altitud="167.7025002" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="14.85" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1357617°" longitud="-97.6310105°" altitud="167.7025002" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="39.23" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1359692°" longitud="-97.6306808°" altitud="166.6214304" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="44.96" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1362563°" longitud="-97.6303513°" altitud="167.2596297" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="25.45" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1364442°" longitud="-97.6301997°" altitud="168.7943359" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="22.35" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1365712°" longitud="-97.6300205°" altitud="168.7943359" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="22.16" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1366221°" longitud="-97.6297962°" altitud="168.7943359" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="20.69" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1365965°" longitud="-97.6295862°" altitud="173.0697661" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="18.66" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1365326°" longitud="-97.6294092°" altitud="173.0697661" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="14.05" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1364436°" longitud="-97.6293039°" altitud="173.0697661" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="13.6" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1363408°" longitud="-97.6292249°" altitud="173.0697661" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="15.17" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1362225°" longitud="-97.6291447°" altitud="173.0697661" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="16.01" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1361642°" longitud="-97.6288767°" altitud="173.0697661" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="167.89" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1364838°" longitud="-97.6271633°" altitud="177.4382764" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="14.84" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1365241°" longitud="-97.6270176°" altitud="177.4382764" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="17.22" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1366346°" longitud="-97.6268881°" altitud="171.8399461" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="366.13" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1392024°" longitud="-97.6244949°" altitud="168.9580539" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="17.39" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1393572°" longitud="-97.6245041°" altitud="168.9580539" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="18.77" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1394259°" longitud="-97.6246830°" altitud="168.9580539" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="20.83" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1393836°" longitud="-97.6248927°" altitud="168.9580539" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="247.04" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1387184°" longitud="-97.6273394°" altitud="164.2524175" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="377.17" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1379747°" longitud="-97.6311560°" altitud="163.1149827" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="266.47" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1376363°" longitud="-97.6338936°" altitud="163.0663586" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="244.77" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1373848°" longitud="-97.6364162°" altitud="161.1515810" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="24.46" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1373087°" longitud="-97.6366569°" altitud="160.8316584" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="14.31" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1371842°" longitud="-97.6366143°" altitud="160.8316584" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="25.73" distancia_unidades="m" sector="2">
+        <coordenada latitud="30.1370107°" longitud="-97.6364395°" altitud="159.8875549" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="167.72" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1357671°" longitud="-97.6354537°" altitud="163.2710106" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="19.78" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1355911°" longitud="-97.6354684°" altitud="163.2710106" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="19.33" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1354977°" longitud="-97.6356385°" altitud="163.3927241" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="58" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1355224°" longitud="-97.6362388°" altitud="163.4556700" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="18.11" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1355953°" longitud="-97.6364079°" altitud="163.4556700" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="19.55" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1357425°" longitud="-97.6365172°" altitud="163.4556700" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="39.9" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1360807°" longitud="-97.6366629°" altitud="161.7896655" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="58.31" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1364749°" longitud="-97.6370615°" altitud="161.5408505" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="21.08" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1365583°" longitud="-97.6372578°" altitud="161.0915584" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="36.32" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1365908°" longitud="-97.6376380°" altitud="161.0915584" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="14.55" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1365368°" longitud="-97.6377798°" altitud="161.0915584" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="13.81" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1364105°" longitud="-97.6377871°" altitud="161.0915584" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="98.38" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1356441°" longitud="-97.6372774°" altitud="162.7723298" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="80.9" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1350097°" longitud="-97.6368616°" altitud="164.0882706" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="27.19" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1347711°" longitud="-97.6368002°" altitud="164.0882706" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="31.73" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1344882°" longitud="-97.6368530°" altitud="164.4063183" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="42.75" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1341292°" longitud="-97.6370210°" altitud="165.1398571" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="14.93" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1340212°" longitud="-97.6371111°" altitud="165.1398571" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="19.26" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1339129°" longitud="-97.6372662°" altitud="165.4646441" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="63.5" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1336772°" longitud="-97.6378643°" altitud="165.7417903" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="27.75" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1336298°" longitud="-97.6381495°" altitud="165.7417903" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="32.87" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1336698°" longitud="-97.6384838°" altitud="164.7332956" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="48.17" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1338072°" longitud="-97.6389588°" altitud="163.5329360" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="37.53" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1340087°" longitud="-97.6392674°" altitud="161.7578974" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="20.62" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1341538°" longitud="-97.6394001°" altitud="160.3478461" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="86.53" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1347957°" longitud="-97.6399118°" altitud="158.8968576" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="89.48" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1354219°" longitud="-97.6404967°" altitud="159.1223067" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="19.35" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1355126°" longitud="-97.6406666°" altitud="159.1223067" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="21.31" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1354904°" longitud="-97.6408865°" altitud="159.1223067" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="255.02" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1345883°" longitud="-97.6433180°" altitud="157.2423638" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="20.54" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1344626°" longitud="-97.6434752°" altitud="155.6706981" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="22.79" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1342713°" longitud="-97.6433889°" altitud="157.2819167" altitud_unidades="m"></coordenada>
+    </tramo>
+
+    <tramo distancia="136.57" distancia_unidades="m" sector="3">
+        <coordenada latitud="30.1335196°" longitud="-97.6422662°" altitud="157.4748489" altitud_unidades="m"></coordenada>
     </tramo>
 
 </circuito>

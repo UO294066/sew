@@ -21,8 +21,9 @@
 <!ATTLIST coordenada
     longitud CDATA #REQUIRED
 	latitud CDATA #REQUIRED
-	altitud CDATA #REQUIRED>
+	altitud CDATA #REQUIRED
+    altitud_unidades CDATA #REQUIRED>
 <!ATTLIST tramo
     distancia CDATA #REQUIRED
-    unidades CDATA #REQUIRED
+    distancia_unidades CDATA #REQUIRED
 	sector CDATA #REQUIRED>
